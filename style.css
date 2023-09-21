@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .chamada {
+  width: 35%;
+}
+body main .chamada h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 40px;
+}
+body main .chamada p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body main .chamada button {
+  padding: 15px 30px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+body main .chamada button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+body footer .redes-sociais {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .redes-sociais svg {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  fill: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
